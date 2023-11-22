@@ -46,19 +46,29 @@ export default function Page() {
   return (
     <div>
       <h2 className="text-lg pb-5 flex-col text-center items-center font-mono text-purple-100">
-        Learn about me...
+        About me...
       </h2>
+      <br />
       <div>
         <Glasscard />
         <br />
-
         <br />
         <Link
-          className="pb-4 text-indigo-100 font-mono tracking-wider text-base"
+          className="flex flex-col items-center pb-4 text-indigo-100 font-mono tracking-wider text-lg"
           href="/about"
         >
-          Go back
+          Go back to about
         </Link>
+
+        <div className="relative flex min-h-screen flex-col items-center justify-between p-24">
+          <a href="/">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/010/157/862/small/house-and-home-icon-symbol-sign-free-png.png"
+              className="object cover h-20 w-25 opacity-25 hover:opacity-100 pointer-events-auto hover:animate-pulse"
+            />{" "}
+          </a>
+        </div>
+        <br />
       </div>
     </div>
   );
