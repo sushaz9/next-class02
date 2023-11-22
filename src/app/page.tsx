@@ -18,13 +18,15 @@ export default function Home() {
           className="pb-4 text-indigo-100 font-mono tracking-wider text-2xl"
           href="/about"
         >
-          Click <strong>here</strong> for more!
+          Click on my <strong>face</strong> for more!
         </Link>
-        <div className="flex min-h-screen flex-col items-center justify-between p-24">
-          <img
-            src="https://i.pinimg.com/736x/c1/c8/6d/c1c86dc8ebcde10d3f480eb59b37f104.jpg"
-            className="object cover h-48 w-96 opacity-25 hover:opacity-100"
-          />
+        <div className="relative flex min-h-screen flex-col items-center justify-between p-24">
+          <a href="/about">
+            <img
+              src="https://media.discordapp.net/attachments/1174279477174472704/1174314738700787772/IMG_20231115_114708.png?ex=65705f53&is=655dea53&hm=2758ef3c8db8540b4ddf33d4da226ed2303cd953a45d527e97262ee6177295d7&=&format=webp&width=539&height=517"
+              className="object cover h-48 w-full opacity-25 hover:opacity-100 pointer-events-auto hover:animate-spin"
+            />{" "}
+          </a>
         </div>
       </div>
     </main>
