@@ -37,7 +37,7 @@ export default function Page() {
       <div className="relative flex min-h-screen flex-col items-center justify-between p-24">
         <a href="/">
           <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/010/157/862/small/house-and-home-icon-symbol-sign-free-png.png"
+            src="https://i.pinimg.com/originals/5e/e4/1a/5ee41adbb9b63d96eac10cfad0dd5c26.png"
             className="object cover h-20 w-25 opacity-25 hover:opacity-100 pointer-events-auto hover:animate-pulse"
           />{" "}
         </a>
@@ -45,3 +45,5 @@ export default function Page() {
     </div>
   );
 }
+
+// https://static.vecteezy.com/system/resources/thumbnails/010/157/862/small/house-and-home-icon-symbol-sign-free-png.png
