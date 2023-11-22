@@ -15,15 +15,28 @@ import Link from "next/link";
 export default function Page() {
   return (
     <div>
-      <p>I work at Breakout Liverpool</p>
+      <a
+        className="pb-4 text-indigo-100 font-mono tracking-wider"
+        href="https://breakoutliverpool.com"
+      >
+        I work at Breakout Liverpool.
+        <br />
+        <br /> Click here to book in!
+      </a>
       <br />
-      <a href="https://breakoutliverpool.com">Click here to book in!</a>
       <br />
 
-      <Link href="/about">Go back to about</Link>
+      <Link
+        className="pb-4 text-indigo-100 font-mono tracking-wider"
+        href="/about"
+      >
+        Go back to about
+      </Link>
       <br />
       <br />
-      <Link href="/">Go home home</Link>
+      <Link className="pb-4 text-indigo-100 font-mono tracking-wider" href="/">
+        Go home
+      </Link>
     </div>
   );
 }

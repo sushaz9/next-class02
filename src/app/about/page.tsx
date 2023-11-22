@@ -37,7 +37,7 @@ let rooms: roomsType[] = [
 ];
 
 export default function Page() {
-  function comparePets(a: roomsType, b: roomsType) {
+  function compareRooms(a: roomsType, b: roomsType) {
     if (a.name < b.name) {
       return -1;
     } else if (a.name > b.name) {
@@ -49,13 +49,24 @@ export default function Page() {
 
   return (
     <div>
-      <h1>This is a barebones tailwind web page. </h1>
       <br />
-      <Link href="/about/me">Learn more about me </Link>
+      <Link
+        className="pb-4 text-indigo-100 font-mono tracking-wider"
+        href="/about/me"
+      >
+        Learn about me{" "}
+      </Link>
       <br />
-      <a href="./about/work">Learn about where I work</a>
+      <a
+        className="pb-4 text-indigo-100 font-mono tracking-wider"
+        href="./about/work"
+      >
+        Learn about where I work
+      </a>
       <br />
-      <a href="/">Go home home</a>
+      <a className="pb-4 text-indigo-100 font-mono tracking-wider" href="/">
+        Go home
+      </a>
     </div>
   );
 }

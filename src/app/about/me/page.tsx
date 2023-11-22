@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Glasscard from "@/app/components/GlassCard";
+
 /*import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -43,15 +45,20 @@ let pets: roomsType[] = [
 export default function Page() {
   return (
     <div>
-      <h2>
-        My name is Susie and I live in Liverpool. I work in an escape room and
-        we have lots of cool games
+      <h2 className="text-lg pb-5 flex-col text-center items-center font-mono text-purple-100">
+        Learn about me...
       </h2>
       <div>
+        <Glasscard />
         <br />
 
         <br />
-        <Link href="/about">Go back</Link>
+        <Link
+          className="pb-4 text-indigo-100 font-mono tracking-wider"
+          href="/about"
+        >
+          Go back
+        </Link>
       </div>
     </div>
   );
