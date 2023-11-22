@@ -54,7 +54,7 @@ export default function Page() {
 
         <br />
         <Link
-          className="pb-4 text-indigo-100 font-mono tracking-wider"
+          className="pb-4 text-indigo-100 font-mono tracking-wider text-base"
           href="/about"
         >
           Go back

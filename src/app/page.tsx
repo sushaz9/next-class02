@@ -5,17 +5,17 @@ export default function Home() {
   return (
     <main>
       <div>
-        <h2 className="text-lg pb-5 flex-col items-center font-mono text-purple-100">
+        <h2 className="text-lg pb-5 flex-col items-center font-mono text-purple-100 text-xl">
           Hi! I'm Susie 👋🏼
         </h2>
-        <p className="pb-2 text-indigo-100 font-mono tracking-wide">
+        <p className="pb-2 text-indigo-100 font-mono tracking-wide text-lg">
           Tailwind is tricky
         </p>
-        <p className="pb-4 text-indigo-100 font-mono tracking-wider">
+        <p className="pb-4 text-indigo-100 font-mono tracking-wider text-xs">
           whAt iS gOiNG on
         </p>
         <Link
-          className="pb-4 text-indigo-100 font-mono tracking-wider"
+          className="pb-4 text-indigo-100 font-mono tracking-wider text-2xl"
           href="/about"
         >
           Click <strong>here</strong> for more!

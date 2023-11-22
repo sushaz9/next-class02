@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <div>
       <a
-        className="pb-4 text-indigo-100 font-mono tracking-wider"
+        className="pb-4 text-indigo-100 font-mono tracking-wider text-lg"
         href="https://breakoutliverpool.com"
       >
         I work at Breakout Liverpool.
@@ -27,14 +27,17 @@ export default function Page() {
       <br />
 
       <Link
-        className="pb-4 text-indigo-100 font-mono tracking-wider"
+        className="pb-4 text-indigo-100 font-mono tracking-wider text-lg"
         href="/about"
       >
         Go back to about
       </Link>
       <br />
       <br />
-      <Link className="pb-4 text-indigo-100 font-mono tracking-wider" href="/">
+      <Link
+        className="pb-4 text-indigo-100 font-mono tracking-wider text-xs"
+        href="/"
+      >
         Go home
       </Link>
     </div>

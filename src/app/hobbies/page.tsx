@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div className="flex pb-4 text-indigo-100 font-mono">
       <Glasscard />
-      <section className="place-self-end">
+      <section className="place-self-end text-xs">
         <Link href="/">Back to home</Link>
       </section>
     </div>
