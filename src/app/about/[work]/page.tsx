@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 // type roomParam = { params: { rooms: string } };
 
@@ -39,7 +40,8 @@ export default function Page() {
           <img
             src="https://i.pinimg.com/originals/5e/e4/1a/5ee41adbb9b63d96eac10cfad0dd5c26.png"
             className="object cover h-20 w-25 opacity-25 hover:opacity-100 pointer-events-auto hover:animate-pulse"
-          />{" "}
+            alt=""
+          />
         </a>
       </div>
     </div>

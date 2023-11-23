@@ -25,6 +25,7 @@ export default function Home() {
             <img
               src="https://media.discordapp.net/attachments/1174279477174472704/1174314738700787772/IMG_20231115_114708.png?ex=65705f53&is=655dea53&hm=2758ef3c8db8540b4ddf33d4da226ed2303cd953a45d527e97262ee6177295d7&=&format=webp&width=539&height=517"
               className="object cover h-48 w-full opacity-25 hover:opacity-100 pointer-events-auto hover:animate-spin"
+              alt=""
             />{" "}
           </a>
         </div>
